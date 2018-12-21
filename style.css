@@ -1,0 +1,115 @@
+  /*************************************/
+ /* MISC STYLES                       */
+/*************************************/
+
+#paypal{
+    background-color:rgb(255, 152, 0);
+}
+
+  /*************************************/
+ /* TABLE STYLES                      */
+/*************************************/
+
+#tblwrap{
+    overflow:auto;
+}
+thead {
+    background-color: #BF360C;
+}
+
+th {
+    color: #fafafa !important;
+}
+
+  /*************************************/
+ /* HEADING STYLES                    */
+/*************************************/
+
+h1 {
+    margin-top: calc(4em / 2 - 1em);
+    color: #F5F5F5;
+    padding: 0;
+    text-align: center;
+    text-shadow: 0 2px 8px #607D8B;
+    font-size: 5em;
+    height: 1em;
+}
+#splash {
+    width: 100%;
+    height: 20em;
+}
+
+  /*************************************/
+ /* HEADER STYLES                     */
+/*************************************/
+
+.mdl-layout__header {
+    background-color: rgb(197, 20, 2);
+    background-color: rgba(197, 20, 2, 0.61);
+    color: #EEEEEE;
+}
+.mdl-layout__header-row {
+    text-overflow: ellipsis;
+}
+
+.mdl-layout-title {
+    width: 100%;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+
+  /*************************************/
+ /* CONTENT STYLES                    */
+/*************************************/
+
+#info{
+    width:100%;
+}
+.mdl-layout__content{
+    padding:0.5em;
+}
+.mdl-card {
+    width: calc(100% - 3em);
+    margin-bottom: 1.5em;
+    margin-top: 2em;
+    margin-left: calc(50% - (50% - 1.5em));
+    padding: 2em;
+    border-radius: 1em;
+}
+
+  /*************************************/
+ /* BACKGROUND STYLES                 */
+/*************************************/
+
+.bg {
+    position: fixed;
+    left: -10px;
+    right: -10px;
+    z-index: -1;
+    background-size: cover;
+    display: block;
+    background-image: url('bg.jpg');
+    width: calc(100% + 20px);
+    height: calc(100% + 20px);
+    -webkit-filter: blur(5px);
+    -moz-filter: blur(5px);
+    -o-filter: blur(5px);
+    -ms-filter: blur(5px);
+    filter: blur(5px);
+}
+
+  /*************************************/
+ /* MEDIA QUERIES                     */
+/*************************************/
+
+@media all and (max-width: 700px) {
+    h1 {
+        font-size: 15vmin;
+    }
+}
+@media all and (min-width: 350px) {
+    .mdl-data-table {
+        width: 100%;
+    }
+}
