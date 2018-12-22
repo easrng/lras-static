@@ -62,7 +62,10 @@ h1 {
   /*************************************/
  /* CONTENT STYLES                    */
 /*************************************/
-
+.mdl-card {
+    overflow: hidden;
+    overflow-wrap: break-word;
+}
 #info{
     width:100%;
 }
